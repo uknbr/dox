@@ -33,4 +33,4 @@ infra@amdocs:~/secomp $ ./run.sh
 [${_cyan}INFO${_end}] Congratulations =) ... ${_green}OK${_end}
 "
 
-echo -e "\n${_bg_blue}${_bold_begin}IF YOU SEE THIS PAGE YOU PROBABLY COMPLETED THE CHALLANGE.${_bold_end}${_end}\n\n"
+echo -e "\n${_bg_blue}${_bold_begin}IF YOU SEE THIS PAGE YOU PROBABLY COMPLETED THE CHALLENGE.${_bold_end}${_end}\n\n"
