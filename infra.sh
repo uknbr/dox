@@ -19,6 +19,7 @@ _bold_end="\e[21m"
 
 clear
 cat <<EOF
+
  █████╗ ███╗   ███╗██████╗  ██████╗  ██████╗███████╗
 ██╔══██╗████╗ ████║██╔══██╗██╔═══██╗██╔════╝██╔════╝
 ███████║██╔████╔██║██║  ██║██║   ██║██║     ███████╗
@@ -29,10 +30,10 @@ EOF
 echo -e "*** ${_bg_gray}${_underline_begin}Infra is looking for you!${_underline_end}${_end} ***"
 
 echo -e "
-infra@amdocs:~/ $ ./secomp.sh
 infra@amdocs:~/ $ cd secomp/
 infra@amdocs:~/secomp $ ./run.sh
 [${_cyan}INFO${_end}] Loading details    ... ${_green}OK${_end}
+[${_cyan}INFO${_end}] Starting server    ... ${_green}OK${_end}
 [${_cyan}INFO${_end}] Checking Web page  ... ${_green}OK${_end}
 [${_cyan}INFO${_end}] Ready to use!      ... ${_green}OK${_end}
 [${_yellow}DEBUG${_end}] Port is listening ... ${_green}OK${_end}
