@@ -1,0 +1,3 @@
+name: infra-challenge
+runtime: python
+description: Deploy amdocs.html using AWS S3
